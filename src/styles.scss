@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+/* ---------------- IMPORTS ---------------- */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,400,500,700');
+
+/* ---------------- RESET ---------------- */
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* ---------------- GLOBAL CONFIG ---------------- */
+
+body {}
+
+.title {
+    padding: 2rem 1rem;
+    font-weight: 200;
+    border-radius: 10px;
+    .highlight {
+        color: blue;
+    }
+}

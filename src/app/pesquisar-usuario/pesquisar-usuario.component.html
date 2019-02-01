@@ -1,3 +1,37 @@
-<p>
-  pesquisar-usuario works!
-</p>
+<div class="card">
+    <div class="card-header">
+        Lista de Usuários
+    </div>
+    <form action="">
+        <div class="card-body row">
+            <div class="col-md-6">
+                Nome
+                <input type="text" class="form-control" aria-label="Name" aria-describedby="nome">
+            </div>
+            <div class="col-md-3">
+                Situação
+                <select class="custom-select" id="situacao">
+                <option selected>Choose...</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div class="col-md-3">
+                Perfil
+                <select class="custom-select" id="situacao">
+                <option selected>Choose...</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div class="col-md-3 offset-md-9 pt-2">
+                <button class="btn btn-primary btn-block" type="submit"><i class="fas fa-search"></i> Pesquisar</button>
+            </div>
+        </div>
+    </form>
+    <div class="container-fluid pb-2">
+        <app-table-usuario></app-table-usuario>
+    </div>
+</div>
