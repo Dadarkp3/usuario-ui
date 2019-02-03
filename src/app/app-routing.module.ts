@@ -4,7 +4,7 @@ import { ListarUsuarioComponent } from './listar-usuario/listar-usuario.componen
 
 const routes: Routes = [
   { path: 'listar-usuario', component: ListarUsuarioComponent, data: { title: 'Listagem Usuario' } },
-  { path: '', redirectTo: '/lista-usuario', pathMatch: 'full'},
+  { path: '', redirectTo: '/listar-usuario', pathMatch: 'full'},
 ];
 
 @NgModule({
