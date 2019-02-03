@@ -1,5 +1,5 @@
 export class Funcao {
-    id: Number;
-    descricao: String;
+    funcao: Number;
+    nome: String;
 
 }

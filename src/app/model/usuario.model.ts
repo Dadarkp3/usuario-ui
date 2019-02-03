@@ -5,6 +5,7 @@ export class Usuario {
     email: String;
     nome: String;
     telefone: String;
+    situacao: String;
     funcao: Funcao;
     perfil: Number;
     habilitacao: String;
